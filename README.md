@@ -10,7 +10,7 @@ The script downloads files given as parameters. Files are placed inside a new di
 
 ### Parameters
 - accepts any number of integers as parameters
-- `-c` or `--clear` deletes the current data folder
+- `-c` or `--clear` deletes the current data folder of .vb and .dec files (leaves downloaded files)
 - `-a` or `--all` fetches all of the files
 ⋅⋅* Downloading all of the files will take some time and some space, so use at your own risk
 

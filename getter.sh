@@ -43,8 +43,8 @@ do
     # Clear command
     if [ "$ARG" = "-c" -o "$ARG" = "--clear" ]
     then
-        echo "Clearing all downloaded files..."
-        rm -rd data
+        echo "Clearing data of '.vb' and '.dec' files..."
+        rm data/*.vb data/*.dec
         break
     elif [ "$ARG" = "-a" -o "$ARG" = "--all" ]
     then
